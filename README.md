@@ -23,4 +23,5 @@ Unlike the other diceRoller implementations in this repository, the node.js impl
 
 The root, dice results, and about pages are all the output of functions, rather than individual files, but there is an "external" .css file in the /public/inc/ directory.  We chose this approach because the pages themselves are very simple.  The .css file is separate to ease customization of the app's appearance.
 
-</details>
+### WebAssembly
+Coming soon...
