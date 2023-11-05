@@ -12,9 +12,8 @@ switch(path){
      break;
 
    case '/diceRoller':
-    var qs = url.parse(req.url).search; //deprecated usage -- replace
-    
-    res.writeHead(200, {'Content-Type': 'text/html'});
+     var qs = url.parse(req.url).search; //deprecated usage -- replace
+     res.writeHead(200, {'Content-Type': 'text/html'});
      res.write(pageProducer.diceRoller(qs));
      res.end();
      break;
