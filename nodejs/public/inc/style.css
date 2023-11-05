@@ -1,0 +1,87 @@
+body {
+    background-color: lightblue;
+}
+.menu-content {
+    max-height: 0;
+    overflow: hidden;
+    font-family: 'Oswald', sans-serif; 
+    padding: 0 0 0 50px;
+}
+.collapsible {
+    background-color: rgb(255, 255, 255);
+    padding: 0px 30px;
+    border-bottom: 3px solid #c0c0c0;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
+}
+.collapsible ul {
+    list-style-type: none;
+    padding: 0;
+}
+.collapsible a {
+    display:block;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    text-align: right;
+}
+.collapsible label {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 24px;
+  display: block;
+  cursor: pointer;
+  background: url(../inc/images/menu.png) no-repeat right center;
+  padding: 10px 0 10px 90%;
+}
+input#menu {
+  display: none;
+}
+input#submitBtn {
+  padding: 14px 25px;
+  background: #3498db;
+  color: #ffffff;
+}
+input#submitBtn:hover {
+  background: #2980b9;
+  color: #ffffff;
+}
+input:checked +label {
+  background-image: url(../inc/images/menu.png);
+}
+input:checked ~ .menu-content {
+  max-height: 100%;
+}
+#mainContainer {
+  text-align:center;
+}
+#diceOptionsFrm {
+  display: inline-block;
+}
+#diceResultsTbl {
+  display: inline-block;
+}
+#trDie, #trRoll td:not(:first-child) {
+  width: 3ch;
+}
+table, th, td {
+  border: 1px solid black;
+}
+a.linkBtn:link, a.linkBtn:visited {
+  background-color: #3498db;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a.linkBtn:hover, a.linkBtn:active {
+  background-color: #2980b9;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #c0c0c0;
+  color: white;
+  text-align: center;
+}
