@@ -1,16 +1,16 @@
 ## Dice Roller Collection
 <details>
 <summary>C</summary>
-</details>
 Coming soon...
+</details>
 <details>
 <summary>C++</summary>
-</details>
 Coming soon...
+</details>
 <details>
 <summary>GO</summary>
-</details>
 Coming soon...
+</details>
 <details>
 <summary>Node.js</summary>
 
