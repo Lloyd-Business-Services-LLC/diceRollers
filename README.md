@@ -1,18 +1,15 @@
 ## Dice Roller Collection
-<details>
-<summary>C</summary>
+
+### C
 Coming soon...
-</details>
-<details>
-<summary>C++</summary>
+
+### C++
 Coming soon...
-</details>
-<details>
-<summary>GO</summary>
+
+### GO
 Coming soon...
-</details>
-<details>
-<summary>Node.js</summary>
+
+### Node.js
 
 A dice rolling server node.js application.
 
