@@ -12,7 +12,7 @@
 </details>
 
 <details>
-<summary>Node.js</summary>
+<summary>#### Node.js</summary>
 
 A dice rolling server node.js application.
 
