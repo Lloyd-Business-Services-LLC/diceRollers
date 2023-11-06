@@ -7,7 +7,7 @@ Coming soon...
 Coming soon...
 
 ### GO
-# diceRoller, a GOLANG server/client implementation
+
 The GOLANG implementation of diceRoller is built on a server/client architecture.
 
 ```
