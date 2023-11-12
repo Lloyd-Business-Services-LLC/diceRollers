@@ -1,5 +1,7 @@
 # Dockerized GO implementation of diceServer
 
+The GOLANG code is the same as found in the ordinary GOLANG implementation.
+
 Docker will probably require a linux exec format for the binary, so first you'll need to (cross-)compile the diceServer for that platform:
 
 ```
