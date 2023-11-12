@@ -1,4 +1,4 @@
-module httpServer
+module diceServer
 
 go 1.19
 
