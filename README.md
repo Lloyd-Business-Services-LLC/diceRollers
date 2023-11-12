@@ -17,7 +17,7 @@ diceRoller_client -h <default: localhost> -p <default: 8001> -number <default: 1
 
 The GOLANG implementation of diceRoller uses http, but while one could access it from a browser, it doesn't provide the "extended" web interface that the node.js implementation does.  Rather, it merely spits out a json string based on the values in the GET request issued by a/the client.  
 
-#### Dockerized GOLANG implementation of the diceRoller_server
+### Dockerized GOLANG implementation of the diceRoller_server
 
 Docker will probably require a linux exec format for the binary, so first you'll need to (cross-)compile the diceServer for that platform:
 
