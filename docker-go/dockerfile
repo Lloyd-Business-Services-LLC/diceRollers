@@ -1,10 +1,14 @@
 # We build the docker image from the "scratch" image (that is, the empty exec environment).
 FROM scratch
+
 # We declare that we maintain this image.
 LABEL maintainer="Garrett Lloyd <glloyd@lloydbusinessservices.tech>"
+
 # This will copy the diceServer binary to the image root (see the README for build instructions).
 COPY diceServer /
+
 # This will begin the execution of the diceServer binary when the "docker run" command is run.
 CMD ["/diceServer"]
+
 # We expose the diceServer's default port (8001) on the container (see the README for the matching run configuration)
 EXPOSE 8001
