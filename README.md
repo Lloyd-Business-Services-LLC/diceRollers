@@ -1,12 +1,12 @@
-## Dice Roller Collection
+# Dice Roller Collection
 
-### C
+## C
 Coming soon...
 
-### C++
+## C++
 Coming soon...
 
-### GO
+## GO
 
 The GOLANG implementation of diceRoller is built on a server/client architecture.
 
@@ -17,7 +17,7 @@ diceRoller_client -h <default: localhost> -p <default: 8001> -number <default: 1
 
 The GOLANG implementation of diceRoller uses http, but while one could access it from a browser, it doesn't provide the "extended" web interface that the node.js implementation does.  Rather, it merely spits out a json string based on the values in the GET request issued by a/the client.  
 
-### Dockerized GOLANG implementation of the diceRoller_server
+## Dockerized GOLANG implementation of the diceRoller_server
 
 Docker will probably require a linux exec format for the binary, so first you'll need to (cross-)compile the diceServer for that platform:
 
@@ -39,7 +39,7 @@ Once the containerized version of diceRoller_server is running, you can test it 
 
 This should return a ```400``` status code.
 
-### Node.js
+## Node.js
 
 A dice rolling server node.js application.
 
@@ -53,8 +53,8 @@ Unlike the other diceRoller implementations in this repository, the node.js impl
 
 The root, dice results, and about pages are all the output of functions, rather than individual files, but there is an "external" .css file in the /public/inc/ directory.  We chose this approach because the pages themselves are very simple.  The .css file is separate to ease customization of the app's appearance.
 
-### Python
+## Python
 Coming soon...
 
-### WebAssembly
+## WebAssembly
 Coming soon...
