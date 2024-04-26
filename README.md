@@ -6,6 +6,10 @@ Coming soon...
 ## C++
 Coming soon...
 
+## C#
+
+Coming soon...
+
 ## GO
 
 The GOLANG implementation of diceRoller is built on a server/client architecture.
