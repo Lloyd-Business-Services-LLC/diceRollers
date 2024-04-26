@@ -1,4 +1,4 @@
-package diceroller_client
+package main
 
 import (
 	"encoding/json"

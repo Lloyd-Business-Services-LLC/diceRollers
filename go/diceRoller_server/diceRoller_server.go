@@ -1,4 +1,4 @@
-package diceroller_server
+package main
 
 import (
 	"crypto/rand"
